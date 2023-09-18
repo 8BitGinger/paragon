@@ -7,51 +7,56 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 99%;
-    background-image: url(/—Pngtree—galaxy\ galaxy\ starry\ night\ sky_1334816.png);
+    background-image: url(/blueBackSoft.png);
     background-size: cover;
-    
+    width: 99%;
+    height: 100%;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
     
 }
 
 header {
-    width: 50%;
+    width: 65%;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 75px;
+    margin-bottom: 35px;
     text-align: center;
-    background-color: black;
+    background-image: url(/—Pngtree—galaxy\ galaxy\ starry\ night\ sky_1334816.png);
+    background-size: cover;
     border-radius: 10px;
-    box-shadow:  0 0 20px 3px rgb(125, 11, 240);
-
+    box-shadow:  0 0 20px 3px rgb(11, 110, 240);
+    border: 5px double rgb(5, 200, 230);
 }
+
+
 
 main {
     
 }
 
 
-section ul {
-    text-align: center;
-    margin-left: -25px;
+aside ul {
     list-style: none;
 }
 
-section ul li {
+aside ul li {
     text-align: center;
     margin: 5px;
     font-size: xx-large;
 }
 
-section ul li a{
+aside ul li a{
     text-decoration: none;
     padding: 5px;
     color: aliceblue;
+    font-weight: 500;
     border-radius: 5px;
 }
 
-section ul li a:hover {
-    background-color: rgb(85, 8, 129);
-}
+
 
 main {
     display: flex;
@@ -63,62 +68,80 @@ main {
 img.headerimage {
     width: 70%;
      border-radius: 15px;
-
+     scale: 1.3;
 }
 
 
-h1 {
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    font-family:monospace;
-    margin-top: -0px;
-}
+
 
 h2 {
-    color: rgb(233, 250, 0);
-    font-size: xx-large;
+    color: rgb(10, 10, 180);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-h3 {
-    margin: auto;
-    text-align: center;
-    color: rgb(233, 250, 0);
-    margin-left: 15px;
-    margin-top: 10px;
-    font-size: xx-large;
-}
+
 
 .card {
     display: block;
     margin: auto;
     margin-top: 20px;
     text-align: center;
-    width: 30%;
+    width: 40%;
     border: 2px solid rgb(255, 255, 255);
-background-color: black;
+    background: rgb(40,39,50);
     border-radius: 10px;
-    box-shadow: inset 0 0 5px 3px rgb(220, 240, 33);
-
+    box-shadow: inset 0 0 7px 5px rgb(4, 89, 132);
+    background-size: cover;
     font-size: larger;
-    color: aliceblue;
+    color: rgb(10, 75, 131);
+    background-color: lightblue;
+
 }
+
+
 
 .card p {
     padding: 12px;
-}
-
-.card1 {
-
-}
-
-
-.sidebar {
-    list-style: none;
 }
 
 
 
 .bold {
     font-weight: 600;
-    color:rgb(233, 250, 0);
+    color:rgb(5, 49, 246);
 }
+
+.navbar {
+    overflow: hidden;
+    background-image: url(/blueBackLines.png);
+    background-size: auto;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    margin-left: -8px;
+    border-bottom: 3px double rgb(136, 130, 130);
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #eeeeee;
+    text-align: center;
+    padding-right: 10px;
+    padding: 18px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  .navbar a:hover {
+    background-image: url(/—Pngtree—beautiful\ abstract\ grunge\ decorative\ navy_1306521.jpg);
+    background-size: cover;
+    border: 1px solid grey;
+    font-style:italic;
+    text-decoration: overline;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+  }
